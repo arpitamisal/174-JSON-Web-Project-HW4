@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Trucking Companies List</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      text-align: center;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    table, th, td {
+      border: 1px solid black;
+    }
+
+    th, td {
+      padding: 10px;
+      text-align: left;
+    }
+
+    input[type="text"] {
+      width: 300px;
+      padding: 8px;
+      font-size: 16px;
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 8px 16px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    #errorMessage {
+      color: red;
+      margin-top: 20px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h1>Enter URL for Trucking List JSON File</h1>
+  <p>Enter the JSON file URL (e.g., truckinglist.json) below:</p>
+
+  <input type="text" id="jsonUrl" placeholder="Enter JSON file URL" />
+  <br>
+  <button onclick="loadTruckingCompanies()">Submit Query</button>
+
+  <div id="errorMessage"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

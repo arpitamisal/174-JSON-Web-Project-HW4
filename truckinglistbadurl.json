@@ -1,0 +1,30 @@
+{
+  "Mainline": {
+    "Table": {
+      "Header": {
+        "Data": [
+          "Parent Company",
+          "Subsidiary / Portfolio Services",
+          "HQ / Info",
+          "Annual Revenue ($ million)",
+          "HomePage",
+          "Logo"
+        ]
+      },
+      "Row": [
+        {
+          "Company": "XYZ Logistics",
+          "Services": "Express Delivery",
+          "Hubs": {
+            "Hub": [
+              "New York, U.S."
+            ]
+          },
+          "Revenue": "$900",
+          "HomePage": "www.xyz.com",
+          "Logo": "xyz.png"
+        }
+      ]
+    }
+  }
+}

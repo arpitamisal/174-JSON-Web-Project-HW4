@@ -1,0 +1,10 @@
+{
+  "WrongRoot": {
+    "Table": {
+      "Header": {
+        "Data": ["A", "B", "C"]
+      },
+      "Row": []
+    }
+  }
+}

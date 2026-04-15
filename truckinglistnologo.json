@@ -1,0 +1,30 @@
+{
+  "Mainline": {
+    "Table": {
+      "Header": {
+        "Data": [
+          "Parent Company",
+          "Subsidiary / Portfolio Services",
+          "HQ / Info",
+          "Annual Revenue ($ million)",
+          "HomePage",
+          "Logo"
+        ]
+      },
+      "Row": [
+        {
+          "Company": "NoLogo Inc.",
+          "Services": "Freight Services",
+          "Hubs": {
+            "Hub": [
+              "California, U.S."
+            ]
+          },
+          "Revenue": "$1200",
+          "HomePage": "https://www.nologo.com/",
+          "Logo": ""
+        }
+      ]
+    }
+  }
+}
